@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575DC9591DE4E362000BF9AE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DC9581DE4E362000BF9AE /* MapViewController.swift */; };
+		5762E83A1DE46BBD0045D0D2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762E8391DE46BBD0045D0D2 /* TableViewController.swift */; };
+		5762E83C1DE46D0F0045D0D2 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762E83B1DE46D0F0045D0D2 /* Task.swift */; };
+		5762E83E1DE4812A0045D0D2 /* TaskDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762E83D1DE4812A0045D0D2 /* TaskDescriptionViewController.swift */; };
+		5762E8401DE497180045D0D2 /* ComposeTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5762E83F1DE497180045D0D2 /* ComposeTaskViewController.swift */; };
 		57B321981DE445B50060ECEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B321971DE445B50060ECEE /* AppDelegate.swift */; };
 		57B3219A1DE445B50060ECEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B321991DE445B50060ECEE /* ViewController.swift */; };
 		57B3219D1DE445B50060ECEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B3219B1DE445B50060ECEE /* Main.storyboard */; };
@@ -26,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		575DC9581DE4E362000BF9AE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5762E8391DE46BBD0045D0D2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		5762E83B1DE46D0F0045D0D2 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5762E83D1DE4812A0045D0D2 /* TaskDescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDescriptionViewController.swift; sourceTree = "<group>"; };
+		5762E83F1DE497180045D0D2 /* ComposeTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeTaskViewController.swift; sourceTree = "<group>"; };
 		57B321941DE445B50060ECEE /* KOM_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOM_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B321971DE445B50060ECEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57B321991DE445B50060ECEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +90,11 @@
 				57B321971DE445B50060ECEE /* AppDelegate.swift */,
 				57B321991DE445B50060ECEE /* ViewController.swift */,
 				57B3219B1DE445B50060ECEE /* Main.storyboard */,
+				575DC9581DE4E362000BF9AE /* MapViewController.swift */,
+				5762E83F1DE497180045D0D2 /* ComposeTaskViewController.swift */,
+				5762E83D1DE4812A0045D0D2 /* TaskDescriptionViewController.swift */,
+				5762E8391DE46BBD0045D0D2 /* TableViewController.swift */,
+				5762E83B1DE46D0F0045D0D2 /* Task.swift */,
 				57B3219E1DE445B50060ECEE /* Assets.xcassets */,
 				57B321A01DE445B50060ECEE /* LaunchScreen.storyboard */,
 				57B321A31DE445B50060ECEE /* Info.plist */,
@@ -201,8 +216,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5762E8401DE497180045D0D2 /* ComposeTaskViewController.swift in Sources */,
+				5762E83C1DE46D0F0045D0D2 /* Task.swift in Sources */,
 				57B3219A1DE445B50060ECEE /* ViewController.swift in Sources */,
+				5762E83E1DE4812A0045D0D2 /* TaskDescriptionViewController.swift in Sources */,
+				5762E83A1DE46BBD0045D0D2 /* TableViewController.swift in Sources */,
 				57B321981DE445B50060ECEE /* AppDelegate.swift in Sources */,
+				575DC9591DE4E362000BF9AE /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +432,7 @@
 				57B321B31DE445B50060ECEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57B321B41DE445B50060ECEE /* Build configuration list for PBXNativeTarget "KOM_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +441,7 @@
 				57B321B61DE445B50060ECEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
